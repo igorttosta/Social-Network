@@ -1,6 +1,6 @@
 <div class="status-bar" style="text-align: center;"> 🛠 Project completed 🛠 </div>
 
-# User Point Control
+# Social Network
 
 This fullstack project is a social network that allows you to create a profile, a post, follow other profiles, comment on publications, among other points.
 
