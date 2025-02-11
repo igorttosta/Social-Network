@@ -1,0 +1,9 @@
+.dropzone {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+}
