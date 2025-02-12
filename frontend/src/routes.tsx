@@ -20,9 +20,9 @@ const Routers = () => {
             <Route path='/posts/:postId' element={<PostDetail />}></Route>
         </Routes>
     );
-  }
-  
-  export default Routers;
+}
+
+export default Routers;
 
 
 

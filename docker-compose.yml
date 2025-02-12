@@ -51,7 +51,7 @@ services:
       AMQP_URL: amqp://guest:guest@rabbitmq:5672
       MONGO_URL: mongodb://mongodb:27017/mydb_development
       ACCESS_TOKEN_SECRET: accesstoken
-      BUCKET_HOST: http://192.168.0.110:9000/
+      BUCKET_HOST: http://192.168.3.11:9000/
       BUCKET_ENDPOINT: http://minio:9000/
       BUCKET_ACCESS_KEY: IgorTosta
       BUCKET_SECRET_KEY: igortosta
@@ -66,12 +66,3 @@ services:
       - "3000:3000"
     depends_on:
       - backend
-  # mobile:
-  #   build:
-  #     context: ./mobile
-  #   volumes:
-  #     - ./mobile:/app
-  #   ports:
-  #     - "5000:80"
-  #   depends_on:
-  #     - backend

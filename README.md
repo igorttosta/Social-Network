@@ -20,8 +20,7 @@ This fullstack project is a social network that allows you to create a profile, 
 - **MinIO** for upload images
 - **Swagger** for API Documentation
 - **React.js** for frontend
-- **React Native** for mobile
-- **MUI** for styles on frontend and mobile
+- **MUI** for styles on frontend
 
 ---
 <h1 id="setup-and-installation">⚙️ Setup and Installation </h1>
@@ -40,7 +39,11 @@ This fullstack project is a social network that allows you to create a profile, 
     ```
 2. **Configure your ip in the project:**
     ```bash
+    Paths:
+
         Social Network -> frontend -> src -> service -> constants.ts -> (SERVER_ADDRESS: "http://0.0.0.0:4000/v1",)
+
+        Social Network -> docker-compose.yml -> BUCKET_HOST: http://192.168.3.11:9000/
     ```
 3. **Build the images on docker-compose:**
     ```bash
@@ -134,7 +137,6 @@ This fullstack project is a social network that allows you to create a profile, 
     │   │   ├── App.tsx
     │   │   ├── index.tsx
     │ 
-    ├── mobile 
     ├── docker-compose.yml 
     └── README.md
  ```
