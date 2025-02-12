@@ -29,6 +29,7 @@ This fullstack project is a social network that allows you to create a profile, 
 
 - Node.js: https://nodejs.org/pt/download
 - React.js
+- Docker
 
 ## Steps
 
